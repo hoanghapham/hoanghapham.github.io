@@ -1,0 +1,62 @@
+baseURL: 'http://hoanghapham.github.io/'
+languageCode: 'en-us'
+title: "Ha's Learning Docs"
+theme: "PaperMod"
+
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 5
+    ordered: false
+
+params:
+
+  homeInfoParams:
+    Title: Ha Pham
+    Content: Data-something.
+
+  socialIcons: # optional
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/hoanghapham/
+    - name: GitHub
+      url: https://github.com/hoanghapham
+      
+  profileMode:
+    enabled: false
+    title: Ha Pham
+    subtitle: Data-something.
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  showShareButtons: true
+  showReadingTime: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  comments: false
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
