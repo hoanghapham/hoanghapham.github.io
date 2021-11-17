@@ -6,8 +6,6 @@ ShowToc: true
 TocOpen: true
 categories: ["engineering"]
 tags: ["github", "dbt"]
-cover:
-  image: "/dbt-ci-with-github-actions/pr_passed.png"
 ---
 
 If you are familiar with the modern data stack, probably **dbt** is no stranger. dbt tries to bring the best practices from the software engineering world into data development, and one of such practices is the idea of automated testing and continuous integration (CI). 
