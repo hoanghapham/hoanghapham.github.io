@@ -11,6 +11,7 @@ markup:
 
 params:
 
+  # Papermod params
   homeInfoParams:
     Title: Ha Pham
     Content: Data-something.
@@ -36,6 +37,9 @@ params:
   showCodeCopyButtons: true
   comments: false
 
+  # Site params
+  author: Ha Pham
+  
 menu:
   main:
     - identifier: archives
