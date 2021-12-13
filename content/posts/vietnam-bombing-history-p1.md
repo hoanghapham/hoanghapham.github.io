@@ -66,14 +66,21 @@ We can have an overview of the U.S.’s escalation and withdrawal in Vietnam by 
 
 U.S.’s involvement increased gradually from 1965 and topped in 1968. This is a bloody year for both sides of the war, and is considered the transition from the “idealism” of the 1960s and the “disillusionment” of the 1970s. Due to Tet Offensive, U.S. press and public started to “challenge the Johnson administration’s assurances of success and to question the value of the increasingly costly war.”[^2] 
 
-The graph shows lessened air force activities after 1968, with another come bank in 1972 when peace negotiations broke down. We will come back to this year later, as it is a very interesting period to look into.
+The graph below shows lessened air force activities after 1968, with another come bank in 1972 when peace negotiations broke down. We will come back to this year later, as it is a very interesting period to look into.
 
   ![](/vietnam-bombing-history-p1/bombing-over-time.png)
 
-  
+
+{{< rawhtml >}}
+<img src="/vietnam-bombing-history-p1/fatalities.png" 
+  style="float: left; width: 70%; height: 70%;">
+{{< /rawhtml >}}
+
 Data of U.S. force’s fatality in Vietnam War further cement this fact. In 1968 about 16,000 U.S. soldiers were reportedly deceased (in the article, this number is 14,000). The number decreased gradually in the after years.
 
-  ![](/vietnam-bombing-history-p1/fatalities.png) 
+{{< rawhtml >}}
+<br clear="left"/>
+{{< /rawhtml >}}
 
 In March 1968, Johnson decided that U.S.’ effort in Vietnam could no longer be justified. After being requested 200,000 more men, he consulted with his new secretary of defense and outside advisors and decided that a limit had been reached. Johnson authorized only 13,500 more and informed Thieu and Ky that South Vietnam will “have to carry more of the fighting”. This later results in what was called [“Vietnamization”](https://en.wikipedia.org/wiki/Vietnamization) of the war.
 
@@ -128,8 +135,9 @@ In 1973, the U.S. stopped bombing the North completely as peace talk with Vietna
   ![](/vietnam-bombing-history-p1/bombing-1973.png) 
 
 
-
 War story has never been a pretty one. Digging through articles to make this presentation is like opening a can of worms that can eat your souls. However, I did learn a lot about this war by digging through this data set instead of doing pure reading. 
+
+In the next post in the series, we will take a deeper look at Operation Rolling Thunder, one of the most important operations in this war.
 
 ---
 # References
@@ -140,6 +148,6 @@ War story has never been a pretty one. Digging through articles to make this pre
 - https://en.wikipedia.org/wiki/Ho_Chi_Minh_trail
 - https://www.nytimes.com/1972/10/25/archives/speech-in-saigon-ceasefire-obstacles-seen-but-president-expects.html
 
-# Footnotes:
+
 [^1]: [Domino Theory](https://en.wikipedia.org/wiki/Domino_theory)
 [^2]: [Vietnam War: Escalation and Withdrawal through rare photographs, 1968-1975](https://rarehistoricalphotos.com/vietnam-war-escalation-and-withdrawal-1968-1975/)
