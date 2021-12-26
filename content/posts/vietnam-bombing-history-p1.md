@@ -1,7 +1,7 @@
 ---
 title: "Vietnam bombing history with data - Part 1"
 date: 2018-11-04T00:00:00+07:00
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 categories: ["analytics"]
