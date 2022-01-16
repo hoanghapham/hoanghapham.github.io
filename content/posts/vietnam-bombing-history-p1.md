@@ -6,8 +6,6 @@ ShowToc: true
 TocOpen: true
 categories: ["analytics"]
 tags: ["data", "analytics", "history"]
-# cover:
-#   image: "/dbt-ci-with-github-actions/pr_passed.png"
 ---
 
 History as taught in Vietnam schools is boring. Modern war history is even more boring, because of the very unattractive way textbooks present the narrative of war. We were taught that our army is brave, noble and great, and we had impossible feats considering the size and technology level of our country. However, I am always skeptical about all those teachings. History as told by only one side is never complete, and I want to know what “the other side” can tell me about the war.
