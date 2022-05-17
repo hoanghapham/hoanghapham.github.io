@@ -5,7 +5,7 @@ draft: false
 ShowToc: true
 TocOpen: true
 categories: ["analytics"]
-tags: ["data", "analytics", "sql", "tips"]
+tags: ["data", "analytics", "sql", "tips", "session"]
 
 ---
 
@@ -18,6 +18,8 @@ Sometimes during analysis work, you need to group **consecutive sequence of valu
 
 - Or a more specific example: Given a series of event data of several users, you want to group the users' events into sessions with a session cut-off threshold of your choice
     ![](/generate-run-length-id-with-sql/user_events.png)
+
+This technique is also called **sessionization**.
 
 # Generate run-length ID with R
 
@@ -108,8 +110,8 @@ with base as (
 )
 
 select 
-    *
-    , last_value(switch_points ignore nulls) over (order by timestamp) as run_length_id
+  *
+  , last_value(switch_points ignore nulls) over (order by timestamp) as run_length_id
 from switching
 
 ```
@@ -140,7 +142,63 @@ group by 1
 
 ![](/generate-run-length-id-with-sql/ex1-05.png)
 
-# Other applications of this technique
+### 4. Another way to generate run-length IDs
+
+In step 2 and 3 above, we made use of NULLs and BigQuery's `last_value()` function to generate the IDs. There is another way to generate these IDs using 1, 0 and a moving `sum()`.
+
+Instead of marking "switch points" using `idx` and set the following row values to NULL, we can mark the switch point using value `1`, and set the following rows to 0:
+
+```sql
+with base as (
+  select
+    *
+    , lag(state, 1) over (partition by device_id order by timestamp) as previous_state
+  from test.consecutive_runs
+  order by device_id, timestamp
+)
+
+select
+  *
+  , case 
+      when previous_state is null or state != previous_state 
+      then 1 
+    else 0 end as switch_points
+from base
+```
+![](/generate-run-length-id-with-sql/ex2-01.png)
+
+Then, use `sum(...) over (partition by ...)` to perform a running sum of switch points. Whenever the run hits a `1` value, the ID will be increased by one and will stay the same for the next rows (because the next rows are all `0`).
+
+```sql
+with base as (
+  select
+    *
+    , lag(state, 1) over (partition by device_id order by timestamp) as previous_state
+  from test.consecutive_runs
+  order by device_id, timestamp
+)
+
+, switching as (
+  select
+    *
+    , case 
+        when previous_state is null or state != previous_state 
+        then 1 
+      else 0 end as switch_points
+  from base
+)
+
+select
+  *
+  , sum(switch_points) over (partition by device_id order by timestamp) as run_length_id
+from switching
+```
+
+Final result: 
+![](/generate-run-length-id-with-sql/ex2-02.png)
+
+
+# Practical use cases for sessionization
 
 This technique can have multiple applications, for example:
 - You have records user traffics on your website, but you are not happy with your tracker's default session grouping. You may want to generate the sessions with your own logic.
