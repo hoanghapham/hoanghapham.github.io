@@ -11,44 +11,52 @@ cover:
 ---
 
 # Introduction
-As someone who were transitioning from an analyst to a data engineering role, I struggled to find a standardized roadmap to follow, since there were so many resources to learn from, and it was very easy to get lost or sidetracked. Eventually, I decided to take on the Udacity Data Engineering Nanodegree last September and have just completed the program this February. Although I don't regret my decision to enroll, I'm not entirely convinced that it worth every penny of mine. In this review, we'll take a closer look at what this "nanodegree" offers, what benefits it provides, and whether it's the best option for you to obtain data engineering knowledge, or you should look elsewhere.
+As someone who transitioning from an analyst to a data engineering role, I struggled to find a standardized road map to follow, since there were so many resources to learn from, and it was very easy to get lost. After trying out a few free courses and also crafted my own learning path, I decided to take on the paid Udacity Data Engineering Nanodegree last September just to know if it has anything better than the free resources. Although I don't think this program is a waste of time, I'm not entirely convinced that it worth every penny of mine. 
 
-# What this Nanodegree is about
+In this review, we'll take a closer look at what this "nanodegree" offers, what benefits it provides, and whether it's the best option for you to obtain data engineering knowledge.
 
-Basically, this nanodegree program is a bundling of courses available on Udacity that promises to cover all of the necessary topics for you to start your Data Engineering career. Of course, all of the course contents are pre-recorded videos delivered online.
 
-# How expensive is it?
-As of the time of this writing, the official price for the course is either $399 per month, or $1356 for a **four-month** access. However, you can claim a coupon by clicking on the "Your Personalized Offer" that significantly reduces the amount you have to pay. 
-When I enrolled to the course in September 2022,  I paid about $500 after applying a 70% coupon, and I had a **five-month** access to the course materials. Looks like the price has gone up a little bit.
-Personally I think the original price is ridiculously high for some pre-recorded videos of people reading slides. 
+# Program structure
 
-![](/udacity-de-nanodegree-review/course-price.png)
+Basically, this nanodegree program is a bundling of courses available on Udacity that aim to cover necessary topics for learners to start their Data Engineering career. Of course, all of the course contents are pre-recorded videos delivered online.
 
-# Structure of the program
-In this nano degree, you will go through a series of courses that introduce you the basic concepts of data engineering, as well as the tools you will use to implement those concepts. For example, in the Data Modeling section you will learn to build database in PostgreSQL and Apache Cassandra, and in the Cloud Data Warehouse course you will get to learn about AWS and Redshift. At the end of each lesson, you will demonstrate your understanding of the newly acquired knowledge with a small project which will be reviewed by their instructors (or volunteers?). 
+The courses will have several lessons to introduce you the basic concepts, as well as the tools to implement those concepts. For example, in the Data Modeling course, you will learn to build database in PostgreSQL and Apache Cassandra, and in the Cloud Data Warehouse course you will get to learn about AWS and Redshift. 
 
 ![](/udacity-de-nanodegree-review/course-content.png)
 
+At the end of each lesson, you will demonstrate your understanding of the newly acquired knowledge with a small project. After that, Udacity's reviewers will check your project's code, evaluate it against the project's standard (rubric), and give comments on how you can improve your code. As of the time of my enrollment, most of the exercises revolved around building data pipelines for a fictional music streaming service using the [Million Song Dataset](http://millionsongdataset.com/), and you will handle a very small subset of the real dataset. 
 
-Finally, to graduate from the course you will need to complete a capstone project in which you will buid build a data pipeline from end to end. You can either choose from a project they provided, or find a topic or a dataset of your own interests
 
-As of the time of my enrollment, most of the exercises revolve around building data pipelines for a fictional music streaming service using the [Million Song Dataset](http://millionsongdataset.com/), and you will handle a very small subset of the real dataset. For the final project, I decided to process the real Million Song Dataset because at the time, I was too busy to think of a new and better topic.
+Finally, to graduate from the course you will need to complete a capstone project in which you will build a data pipeline from end to end. You can either choose from a project they provided, or find a topic or a dataset of your own interests
 
-So after spending time with this course, what is the verdict?
+For the final project, I decided to process the real Million Song Dataset because at the time, I was too busy to think of a new and better topic.
+
+# How expensive is it?
+As of the time of this writing, the program costs either $399 per month, or $1356 for a **four-month** access. However, you can claim a coupon by clicking on the "Your Personalized Offer" that significantly reduces the amount you have to pay. 
+When I enrolled to the course in September 2022,  I paid about $500 after applying a 70% coupon, and I had a **five-month** access to the course materials. Looks like the price has gone up a little bit.
+
+Personally I think the price is ridiculously high for some pre-recorded videos of people reading slides. 
+
+![](/udacity-de-nanodegree-review/course-price.png)
+
+
+So does the program really worth that much?
 
 # My feelings about the course
 
-## The pros
-If you are a beginner, then you may like it
+## If you are a beginner, you may like it
 
-In case you have just pivoted into a data engineering role, this program will give you an idea of the topics that you will need to know to perform in the role. Having a structured program to follow will also give you ease of mind (at least this was true for me), because the DE field is vast, and having a clear roadmap to study is easier for you.
+In case you have just pivoted into a data engineering role, this program will give you an outline of the topics that you need to know to perform in the role. Having a structured program to follow will also give you ease of mind (at least this was true for me), because the DE field is vast, and having a clear road map to study is easier for you.
 
-Another (probably) good thing about this program is that in for the end-of-course projects you will have real people reviewing your code. However, to be honest I'm not sure about the quality of the review though. To me it looks like they just review your code basing on a list of check boxes. I'm pretty sure that my code is quite shitty but sometimes they still praise me to the moon.
+Another unique thing about this program is that for the end-of-course projects you will have Udacity's reviewers to review and comment on your code, unlike other courses that rely on peer reviews. However, I'm still not sure about the quality of the review though. To me it looks like they just review your code basing off a list of check boxes. I'm pretty sure that my code is quite shitty but sometimes they still praise me to the moon.
 
-The course will give you the opportunity to try out AWS services, and I think that's pretty neat. And finally, of course after completing the program, you wll have an electronic certificate to attach to your Linkedin profile, if you care aboutthat.
+Other neat features of the course include the opportunity to try out AWS services for free (which is neat), and an electronic certificate to attach to your Linkedin profile after the course, if you care about that kind of thing.
 
-## The cons
-For me, the content of this course is quite a let-down. I enjoyed the course about pipeline automation because it was closed to what I had been working on in my job, and I wanted an Airflow refresher. Other than that, the other courses are pretty boring. I find the content pretty shallow, since most of the time they only focus on introducing the tools, while expect to learn more about the principals of designing data systems.
+## If you already know your stuff, then just skip this
+
+While I enjoyed some courses in the program, I can't say that this entire "nanodegree" is well-constructed. 
+
+I enjoyed the course about pipeline automation because it was closed to what I had been working on in my job, and I wanted an Airflow refresher. Other than that, the other courses are pretty boring. I find the content pretty shallow, since most of the time they only focus on introducing the tools, while expect to learn more about the principals of designing data systems.
 
 The content delivery is also inconsistent, because the program is comprised by different courses taught by different instructors.  Some instructors' delivery is serviceable, while some of them are just plain boring, like they just read everything off the slide, which made me wonder why I have to pay money for this at all, since they are no different from the kind of videos that I can easily find on Youtube.
 
