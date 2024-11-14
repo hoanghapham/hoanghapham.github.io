@@ -14,7 +14,7 @@ params:
   # Papermod params
   homeInfoParams:
     Title: Ha Pham
-    Content: Data-something.
+    Content: Data enthusiast.
 
   socialIcons: # optional
     - name: LinkedIn
@@ -25,7 +25,7 @@ params:
   profileMode:
     enabled: false
     title: Ha Pham
-    subtitle: Data-something.
+    subtitle: Data enthusiast.
     imageUrl: "<image link>" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 120 # custom size
