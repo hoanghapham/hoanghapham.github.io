@@ -1,6 +1,6 @@
 baseURL: 'http://hoanghapham.github.io/'
 languageCode: 'en-us'
-title: "Ha's Portfolio"
+title: "Ha Pham"
 theme: "PaperMod"
 
 markup:
@@ -14,24 +14,35 @@ params:
   # Papermod params
   homeInfoParams:
     Title: Ha Pham
-    Content: Data enthusiast.
+    Content: Aspiring Machine Learning Engineer
 
   socialIcons: # optional
     - name: LinkedIn
       url: https://www.linkedin.com/in/hoanghapham/
     - name: GitHub
       url: https://github.com/hoanghapham
-      
-  profileMode:
-    enabled: false
-    title: Ha Pham
-    subtitle: Data enthusiast.
-    imageUrl: "<image link>" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    - name: Youtube
+      url: https://www.youtube.com/@BlacK201100
+    - name: CV
+      url: /files/Pham-Hoang-Ha_CV.pdf
 
-  showShareButtons: true
+  profileMode:
+    enabled: True
+    title: Ha Pham
+    subtitle: Aspiring Machine Learning Engineer
+    imageUrl: "about/ava.png" 
+    imageTitle: "avatar"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: About Me
+        url: /about
+      - name: Portfolio
+        url: /projects
+      - name: Blog
+        url: /posts
+
+  # showShareButtons: true
   showReadingTime: true
   showBreadCrumbs: true
   showCodeCopyButtons: true
@@ -39,29 +50,28 @@ params:
 
   # Site params
   author: Ha Pham
-  
+
+  assets:
+    enableFontAwesome: true
+
 menu:
   main:
-    # - identifier: blog
-    #   name: Blog
-    #   url: /blog/
-    #   weight: 10
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 10
+    - identifier: about
+      name: About Me
+      url: /about
+      weight: 1
+    - identifier: portfolio
+      name: Portfolio
+      url: /projects
+      weight: 2
+    - identifier: blog
+      name: Blog
+      url: /posts
+      weight: 3
     - identifier: search
       name: Search
       url: /search/
-      weight: 20
+      weight: 4
 
 outputs:
   home:
