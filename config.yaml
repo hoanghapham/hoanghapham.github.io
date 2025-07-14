@@ -16,15 +16,15 @@ params:
     Title: Ha Pham
     Content: Aspiring Machine Learning Engineer
 
-  socialIcons: # optional
+  socialIcons:
     - name: LinkedIn
       url: https://www.linkedin.com/in/hoanghapham/
     - name: GitHub
       url: https://github.com/hoanghapham
     - name: Youtube
       url: https://www.youtube.com/@BlacK201100
-    - name: CV
-      url: /files/Pham-Hoang-Ha_CV.pdf
+    # - name: Soundcloud
+    #   url: https://soundcloud.com/hapham2002/tracks
 
   profileMode:
     enabled: True
@@ -68,17 +68,16 @@ menu:
       name: Blog
       url: /posts
       weight: 3
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 4
+    - identifier: contact
+      name: Contact
+      url: /contact
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 4
 
 outputs:
   home:
     - HTML
     - RSS
     - JSON
-
-# module:
-#   imports:
-#     path: github.com/zetxek/adritian-free-hugo-theme
