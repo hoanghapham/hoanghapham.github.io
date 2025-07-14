@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>NLP on Ha Pham</title><link>http://hoanghapham.github.io/tags/nlp/</link><description>Recent content in NLP on Ha Pham</description><generator>Hugo -- 0.148.1</generator><language>en-us</language><lastBuildDate>Mon, 14 Jul 2025 16:07:05 +0700</lastBuildDate><atom:link href="http://hoanghapham.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml"/><item><title>Master's Thesis - HTR with Visual Language Model</title><link>http://hoanghapham.github.io/projects/vlm-htr/</link><pubDate>Mon, 14 Jul 2025 15:03:14 +0700</pubDate><guid>http://hoanghapham.github.io/projects/vlm-htr/</guid><description>&lt;p>In this project, I fine-tuned Visual Language Models (VLMs) and create an end-to-end pipeline for Handwrittent Text Recognitition tasks on historical Swedish manuscripts. The VLM-based pipeline is also compared against the classical YOLO - TrOCR pipeline.&lt;/p>
+&lt;p>The project was done in collaboration with the Swedish National Archives (Riksarkivet).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Models:&lt;/strong> Florence-2, YOLO, TrOCR&lt;/li>
+&lt;li>&lt;strong>Tools:&lt;/strong> PyTorch, transformers, Gradio&lt;/li>
+&lt;/ul>
+&lt;div class="github-link-wrapper">
+&lt;a href="https://github.com/hoanghapham/visual-language-models-htr" class="github-button" target="_blank" rel="noopener noreferrer">
+&lt;i class="fab fa-github">&lt;/i> GitHub
+&lt;/a>
+&lt;/div>
+&lt;div class="generic-link-wrapper">
+&lt;a href="https://huggingface.co/spaces/nazounoryuu/vlm-htr" class="generic-link" target="_blank" rel="noopener noreferrer">
+&lt;i class="fa-solid fa-laptop-code">&lt;/i> Demo
+&lt;/a>
+&lt;/div></description></item><item><title>Language detector</title><link>http://hoanghapham.github.io/projects/language-detector/</link><pubDate>Mon, 14 Jul 2025 16:07:05 +0700</pubDate><guid>http://hoanghapham.github.io/projects/language-detector/</guid><description>&lt;p>In this project, I trained two models for the language detection task, using the WiLI-2018 dataset.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Models:&lt;/strong> Naive Bayes, XLM RoBERTa&lt;/li>
+&lt;li>&lt;strong>Tools:&lt;/strong> sklearn, transformers, Streamlit, FastAPI, Docker.&lt;/li>
+&lt;/ul>
+&lt;div class="github-link-wrapper">
+&lt;a href="https://github.com/hoanghapham/language-detector" class="github-button" target="_blank" rel="noopener noreferrer">
+&lt;i class="fab fa-github">&lt;/i> GitHub
+&lt;/a>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Computer Vision on Ha Pham</title><link>http://hoanghapham.github.io/tags/computer-vision/</link><description>Recent content in Computer Vision on Ha Pham</description><generator>Hugo -- 0.148.1</generator><language>en-us</language><lastBuildDate>Mon, 14 Jul 2025 15:59:05 +0700</lastBuildDate><atom:link href="http://hoanghapham.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml"/><item><title>Master's Thesis - HTR with Visual Language Model</title><link>http://hoanghapham.github.io/projects/vlm-htr/</link><pubDate>Mon, 14 Jul 2025 15:03:14 +0700</pubDate><guid>http://hoanghapham.github.io/projects/vlm-htr/</guid><description>&lt;p>In this project, I fine-tuned Visual Language Models (VLMs) and create an end-to-end pipeline for Handwrittent Text Recognitition tasks on historical Swedish manuscripts. The VLM-based pipeline is also compared against the classical YOLO - TrOCR pipeline.&lt;/p>
+&lt;p>The project was done in collaboration with the Swedish National Archives (Riksarkivet).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Models:&lt;/strong> Florence-2, YOLO, TrOCR&lt;/li>
+&lt;li>&lt;strong>Tools:&lt;/strong> PyTorch, transformers, Gradio&lt;/li>
+&lt;/ul>
+&lt;div class="github-link-wrapper">
+&lt;a href="https://github.com/hoanghapham/visual-language-models-htr" class="github-button" target="_blank" rel="noopener noreferrer">
+&lt;i class="fab fa-github">&lt;/i> GitHub
+&lt;/a>
+&lt;/div>
+&lt;div class="generic-link-wrapper">
+&lt;a href="https://huggingface.co/spaces/nazounoryuu/vlm-htr" class="generic-link" target="_blank" rel="noopener noreferrer">
+&lt;i class="fa-solid fa-laptop-code">&lt;/i> Demo
+&lt;/a>
+&lt;/div></description></item><item><title>Kitchen Monitoring</title><link>http://hoanghapham.github.io/projects/kitchen-monitoring/</link><pubDate>Mon, 14 Jul 2025 15:59:05 +0700</pubDate><guid>http://hoanghapham.github.io/projects/kitchen-monitoring/</guid><description>&lt;p>This project simulates a monitoring system for kitchens, using YOLO for object detection and tracking. The detection model is trained to track two types of items (dish, tray), and each item type has a classification model to further categorize them into three sub-classes, depending on the content of the dish or tray.&lt;/p>
+&lt;p>The system includes a module to perform inference, and a module for users to re-annotate the object detection themselves.&lt;/p></description></item></channel></rss>
