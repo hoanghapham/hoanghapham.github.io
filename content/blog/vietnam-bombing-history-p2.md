@@ -8,7 +8,7 @@ categories: ["analytics"]
 tags: ["data", "analytics", "history"]
 ---
 
-You can read Part 1 [here]({{< ref "/posts/vietnam-bombing-history-p1.md" >}}).
+You can read Part 1 [here]({{< ref "/blog/vietnam-bombing-history-p1.md" >}}).
 
 Full code to produce the charts and report: [https://github.com/hoanghapham/vietnam\_war\_bombing](https://github.com/hoanghapham/vietnam_war_bombing) 
 
