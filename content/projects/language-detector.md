@@ -1,9 +1,9 @@
 ---
 date: '2025-07-14T16:07:05+07:00'
-title: 'Language detector'
+title: 'Language Detector'
 draft: false 
-categories: ["machine-learning"]
 tags: ["Machine Learning", "NLP"]
+weight: 3
 cover:
   image: /projects/language-detector.png
 

@@ -26,7 +26,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc
       
       # - name: printing
       #   run: echo ${{ github.ref }}
