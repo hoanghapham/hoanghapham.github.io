@@ -13,7 +13,7 @@
 &lt;a href="https://huggingface.co/spaces/nazounoryuu/vlm-htr" class="generic-link" target="_blank" rel="noopener noreferrer">
 &lt;i class="fa-solid fa-laptop-code">&lt;/i> Demo
 &lt;/a>
-&lt;/div></description></item><item><title>Language detector</title><link>http://hoanghapham.github.io/projects/language-detector/</link><pubDate>Mon, 14 Jul 2025 16:07:05 +0700</pubDate><guid>http://hoanghapham.github.io/projects/language-detector/</guid><description>&lt;p>In this project, I trained two models for the language detection task, using the WiLI-2018 dataset.&lt;/p>
+&lt;/div></description></item><item><title>Language Detector</title><link>http://hoanghapham.github.io/projects/language-detector/</link><pubDate>Mon, 14 Jul 2025 16:07:05 +0700</pubDate><guid>http://hoanghapham.github.io/projects/language-detector/</guid><description>&lt;p>In this project, I trained two models for the language detection task, using the WiLI-2018 dataset.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Models:&lt;/strong> Naive Bayes, XLM RoBERTa&lt;/li>
 &lt;li>&lt;strong>Tools:&lt;/strong> sklearn, transformers, Streamlit, FastAPI, Docker.&lt;/li>
