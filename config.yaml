@@ -30,7 +30,7 @@ params:
     enabled: True
     title: Ha Pham
     subtitle: Aspiring Machine Learning Engineer
-    imageUrl: "about/ava.png" 
+    imageUrl: "about/ava.jpg" 
     imageTitle: "avatar"
     imageWidth: 120
     imageHeight: 120
