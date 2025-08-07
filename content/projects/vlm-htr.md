@@ -15,6 +15,6 @@ The project was done in collaboration with the Swedish National Archives (Riksar
 - **Models:** Florence-2, YOLO, TrOCR
 - **Tools:** PyTorch, transformers, Gradio
 
-{{< github "https://github.com/hoanghapham/visual-language-models-htr" "GitHub" >}}
+{{< github "https://github.com/hoanghapham/vlm-htr" "GitHub" >}}
 
 {{< link "https://huggingface.co/spaces/nazounoryuu/vlm-htr" "Demo" >}}
